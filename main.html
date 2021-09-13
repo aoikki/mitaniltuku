@@ -269,13 +269,14 @@ STAGE3-3追加　ここまで -->
           
       </div>
       <!-- STAGE3　ここまで -->
- <!-- STAGE1　ここから -->
-      <div id="sectionStage1" class="stage">
+      
+ <!-- STAGE4　ここから -->
+      <div id="sectionStage4" class="stage">
 
-        <!-- STAGE1問題セクション　ここから -->
+        <!-- STAGE4問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：4</span>さぁゲームを始めよう！</h2>
             <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
               下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
             <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
@@ -296,12 +297,12 @@ Youtube貼り付けここまで -->
             </div>
           </div>
         </section>
-        <!-- STAGE1問題セクション　ここまで -->
+        <!-- STAGE4問題セクション　ここまで -->
 
-        <!-- STAGE1解答入力セクション　ここから -->
+        <!-- STAGE4解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE：4</span>キーワードを入力</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
               v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
@@ -315,9 +316,9 @@ Youtube貼り付けここまで -->
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
           </div>
         </section>
-        <!-- STAGE1解答入力セクション　ここまで -->
+        <!-- STAGE4解答入力セクション　ここまで -->
 
-        <!-- STAGE1クリア画面　ここから -->
+        <!-- STAGE4クリア画面　ここから -->
         <!------------------------------------------------------------------------------------------------------
           ステージを全問正解するとclear['stage1']がtrusになります。
           v-if="clear['stage1']"はclear['stage1']がtrueになったら表示します。
@@ -326,7 +327,7 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
+              <div class="clear-message__title">STAGE：4  クリア！</div>
               <div class="clear-message__content">家庭科室の扉が開いた！<br>
                 さぁ先生を助けるため<br>
                 ３つステージの謎をとき、暗号を見つけ出そう！</div>
@@ -334,10 +335,10 @@ Youtube貼り付けここまで -->
             </div>
           </div>
         </section>
-        <!-- STAGE1クリア画面　ここまで -->
+        <!-- STAGE4クリア画面　ここまで -->
 
       </div>
-      <!-- STAGE1　ここまで -->
+      <!-- STAGE4　ここまで -->
 
     </div>
   </main>
